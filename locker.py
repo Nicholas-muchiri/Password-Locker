@@ -23,9 +23,9 @@ class Userdata:
         print(f" You have successfully created  an account for {username}")
         print(' Would you want to go on with this awesome program? Yes or No')
         opt = input().lower()
-        if opt == 'Yes':
+        if opt == 'y':
             controllers.login()
-        elif opt== 'No':
+        elif opt== "n":
             print('Thank you {username} login later.')
         exit()
 
@@ -135,7 +135,7 @@ class Controllers():
         udata = {username: upass}
         if str(udata) in open('login.txt').read():
             # print("true")
-            print(f'As{username}  you have successfully logged in lets have some fun...')
+            print(f'As {username}  you have successfully logged in lets have some fun...')
             print('*'*30)
             if True:
               controllers.access_controller()
