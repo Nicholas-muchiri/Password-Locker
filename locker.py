@@ -135,7 +135,7 @@ class Controllers():
         udata = {username: upass}
         if str(udata) in open('login.txt').read():
             # print("true")
-            print(f'As {username}' you have successfully logged in lets have some fun...)
+            print(f'As{username}  you have successfully logged in lets have some fun...')
             print('*'*30)
             if True:
               controllers.access_controller()
