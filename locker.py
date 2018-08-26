@@ -12,7 +12,7 @@ class Userdata:
         '''
         function that creates new users
         '''
-        print("Enter your username and password:")
+        print("Input your username and password:")
         username = str(input())
         print("input password:")
         upass = getpass.getpass()
