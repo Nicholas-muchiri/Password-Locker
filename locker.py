@@ -98,15 +98,14 @@ class Controllers():
         elif selector_call == "login":
             controllers.login()
         else:
-            print("illegal code input")
+            print("Naah {username}...You cant input that")
             controllers.selector()
-
 
     def access_controller(self):
         '''
-        Gives options after login function is True
+        Gives options after  the login function is True
         '''
-        print('genpass-for generate passwords or viewc-view saved credentials')
+        print('generate password or view passwords')
         access_call = str(input())
         if access_call == 'genpass':
             credentials.generate_password()
