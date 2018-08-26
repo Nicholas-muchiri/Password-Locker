@@ -52,7 +52,7 @@ class Credentials:
 
     def show_generatedPass(self):
         inputted_username = str(input('Enter your Accounts name:').lower())
-        with open('password_keeper.txt') as f:
+        with open('passwordstore.txt') as f:
             for line in f:
                 line2= line.split(':')
                 if inputted_username in line2:
@@ -69,7 +69,7 @@ class Credentials:
         '''
         print("Which account do you want to copy password?:")
         name = str(input())
-        f = open('password_keeper.txt', 'r')
+        f = open('password store.txt', 'r')
         for line in f.readlines():
             tag, key = line.strip().split(":")
             if (name in tag):
