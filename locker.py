@@ -90,13 +90,12 @@ class Controllers():
         '''
         function that controls the flow of the application
         '''
-        print('please use the codes below to continue:')
-        print("log-for registered users\n", "\nnew-for new user\n")
+        print("login \n", "\new user\n")
         selector_call = str(input())
-        if selector_call == "new":
+        if selector_call == "new user":
            userdata.create_user()
             # selector()
-        elif selector_call == "log":
+        elif selector_call == "login":
             controllers.login()
         else:
             print("illegal code input")
