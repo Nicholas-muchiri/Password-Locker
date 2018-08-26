@@ -1,8 +1,8 @@
 
-### An application that generates passwords and stores them for users , June 9th, 2018.
-#### By **[Ephantus karanja](https://github.com/ephantuskaranja)**
+### An application that generates passwords and stores them for its users.
+#### By **[Nicholas Muchiri](https://github.com/Nicholas-muchiri)**
 ## Description
-This app help users to generate passwords and save them for later reference. The app binds the password to a specific account and username. The application requires user to login and also create new accounts.The passwords are retrieved from the application if he/she is logged in and cn only retrieve those cedentials that matches their username.
+Since Users now create new passowrds every now and then and its very easy to forget them. So this application helps its users to be able to generate passwords and store them somewhere refferable.
 ## Specifications
 | Behavior                  | Input                     | Output                    |
 | ------------------------- | ------------------------- | ------------------------- |
