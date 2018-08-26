@@ -83,8 +83,6 @@ class Credentials:
 
 credentials = Credentials()
 
-
-
 class Controllers():
     def selector(self):
         '''
@@ -116,15 +114,15 @@ class Controllers():
             credentials.show_generatedPass()
             print("Do you want to copy the credentials?:YES or NO")
             called = input().lower()
-            if called == 'y':
+            if called == 'YES':
                credentials.copy_credentials()
 
             else:
-                print('thanks for your time.your are now exiting')
+                print('Program shutting down')
                 print('*'*30)
                 exit()
         else:
-            print('illegal input')
+            print('Ooh hell naah {username}...dont do that')
 
 
     def login(self):
@@ -132,18 +130,17 @@ class Controllers():
         function that enables access to the system
         '''
         print('Logging in........')
-        username = str(input('Please enter username: '))
-        upass = getpass.getpass('Please enter password: ')
+        username = str(input('Input username; '))
+        upass = getpass.getpass('Enter password; ')
         udata = {username: upass}
         if str(udata) in open('login.txt').read():
             # print("true")
-            print(f'correct credentials: Your are now logged in as {username}')
+            print(f'As {username}' you have successfully logged in lets have some fun...)
             print('*'*30)
             if True:
               controllers.access_controller()
         else:
-            print('incorrect credentials')
-
+            print('Bruh...input your correct shit manh')
 controllers = Controllers()
 controllers.selector()
 
