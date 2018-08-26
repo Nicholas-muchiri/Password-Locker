@@ -6,7 +6,7 @@ Since Users now create new passowrds every now and then and its very easy to for
 ## Specifications
 | Behavior                  | Input                     | Output                    |
 | ------------------------- | ------------------------- | ------------------------- |
-| Generate password| Enter the username and account generating for without space | Displays username,account e.g gmail and password |
+| Generate a password| Enter the username and account generating for without space | Displays username,account e.g gmail and password |
 | copy passwords | enter username and account without space | displays passwords |
 | copy password | enter username and account without space | password copied on pyperclip ready to paste |
 
@@ -14,9 +14,9 @@ Since Users now create new passowrds every now and then and its very easy to for
 ## Cloning this repo
     1. Install python3.6
     2. clone this repo
-    3. Run This:`python3.6 control.py` on console to launch the application. 
+    3. Run This:`python3.6 locker.py` on console to open your application. 
 ## Known Bugs
-    No bugs so far. If found, email me at ephantusslogan@gmail.com
+    No bugs so far. If found, email me at Nickromero187@gmail.com
 
 ## Contributions
     Incase you want to contribute, kindly feel free to clone the repo from here:
@@ -24,9 +24,7 @@ Since Users now create new passowrds every now and then and its very easy to for
 
 ## Technologies Used
     1. HTML
-    2. Bootstrap
-    3. Flask framework
-    4. Python
+    2. Python
 
 ## Support and contact details
-Contact me on ephantusslogan.com for any comments, reviews or advice.
+Contact me on Nickromero187@gmail.com for any comments, reviews or advice.
