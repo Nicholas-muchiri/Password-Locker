@@ -103,14 +103,14 @@ class Controllers():
         '''
         Gives options after  the login function is True
         '''
-        print('generate password or view passwords')
+        print('generatepass or viewpass')
         access_call = str(input())
-        if access_call == 'generate password':
+        if access_call == 'generatepass':
             credentials.generate_password()
             print("*"*35)
             print('Choose either to continue...')
             controllers.access_controller()
-        elif access_call == 'viewpasswords':
+        elif access_call == 'viewpass':
             credentials.show_generatedPass()
             print("Do you want to copy the credentials?:YES or NO")
             called = input().lower()
