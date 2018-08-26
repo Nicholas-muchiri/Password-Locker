@@ -59,15 +59,15 @@ class Credentials:
                     print(line)
                     break
             else:
-                print(' SORRY This Account doesn\'t exists')
+                print(' SORRY but this Account doesn\'t exists')
                 controllers.access_controller()
     # show_generatedPass()
 
     def copy_credentials(self):
         '''
-        function copies passwords for account to piperclip
+         this function copies passwords for account to piperclip
         '''
-        print("please specify account name to copy password:")
+        print("Which account do you want to copy password?:")
         name = str(input())
         f = open('password_keeper.txt', 'r')
         for line in f.readlines():
@@ -76,8 +76,8 @@ class Credentials:
                 key = key.strip()
                 # print(key)
                 pyperclip.copy(key)
-                print(f"password for account {name} copied")
-        print('your now exiting...')        
+                print(f" {name}s password has been copied")
+        print('Program shutting down...')        
         exit()
     # copy_credentials()
 
