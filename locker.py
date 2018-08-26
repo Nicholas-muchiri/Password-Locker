@@ -107,14 +107,14 @@ class Controllers():
         '''
         print('generate password or view passwords')
         access_call = str(input())
-        if access_call == 'genpass':
+        if access_call == 'generate password':
             credentials.generate_password()
             print("*"*35)
-            print('to continue, choose option')
+            print('Choose either to continue...')
             controllers.access_controller()
-        elif access_call == 'viewc':
+        elif access_call == 'viewpasswords':
             credentials.show_generatedPass()
-            print("copy credentials?:y or n")
+            print("Do you want to copy the credentials?:YES or NO")
             called = input().lower()
             if called == 'y':
                credentials.copy_credentials()
