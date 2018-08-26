@@ -44,7 +44,7 @@ class Credentials:
         cnt = int(input('Input the lenght of password you want:'))
         alphabet = string.ascii_letters + string.digits
         password = ''.join(secrets.choice(alphabet) for i in range(cnt))
-        file = open("password_keeper.txt", "a")
+        file = open("password store.txt", "a")
         file.write("\n" + accountFor+':'+password)
         print(f"password for account {accountFor} generated")
         file.close()
