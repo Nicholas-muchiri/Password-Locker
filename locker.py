@@ -52,7 +52,7 @@ class Credentials:
 
     def show_generatedPass(self):
         inputted_username = str(input('Enter your Accounts name:').lower())
-        with open('passwordstore.txt') as f:
+        with open('password store.txt') as f:
             for line in f:
                 line2= line.split(':')
                 if inputted_username in line2:
