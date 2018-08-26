@@ -88,7 +88,7 @@ class Controllers():
         '''
         function that controls the flow of the application
         '''
-        print("login \n", "\new user\n")
+        print("login \n", "\n new user\n")
         selector_call = str(input())
         if selector_call == "new user":
            userdata.create_user()
