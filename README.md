@@ -2,7 +2,7 @@
 ### An application that generates passwords and stores them for its users.
 #### By **[Nicholas Muchiri](https://github.com/Nicholas-muchiri)**
 ## Description
-Since Users now create new passowrds every now and then and its very easy to forget them. So this application helps its users to be able to generate passwords and store them somewhere refferable.
+Since Users now create new passwords every now and then it can be very easy to forget them. So this application helps its users to be able to generate passwords and store them somewhere refferable.
 ## Specifications
 | Behavior                  | Input                     | Output                    |
 | ------------------------- | ------------------------- | ------------------------- |
