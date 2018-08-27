@@ -20,7 +20,7 @@ Since Users now create new passowrds every now and then and its very easy to for
 
 ## Contributions
     Incase you want to contribute, kindly feel free to clone the repo from here:
-    (https://github.com/ephantuskaranja/password_locker.git)
+    (https://github.com/Nicholas-muchiri/Password-Locker)
 
 ## Technologies Used
     1. HTML
