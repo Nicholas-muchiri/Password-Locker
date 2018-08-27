@@ -2,3 +2,5 @@
 {'Nick': 'beast'}
 {'nick': 'beast'}
 {'hakeem': 'youth'}
+{'Dreezy': 'ovo'}
+{'bree': 'bunny'}

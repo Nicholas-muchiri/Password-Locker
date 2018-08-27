@@ -35,11 +35,11 @@ class Userdata:
         file.write("\n" + str(udata))
         file.close()
         print(f" You have successfully created  an account for {username}")
-        print(' Would you want to go on with this awesome program? Yes or No')
+        print(' Would you want to go on with this awesome program? yes or no')
         opt = input().lower()
-        if opt == 'y':
+        if opt == 'yes':
             controllers.login()
-        elif opt== "n":
+        elif opt== "no":
             print('Thank you {username} login later.')
         exit()
 
