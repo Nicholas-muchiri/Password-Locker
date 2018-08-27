@@ -1,3 +1,9 @@
+import unittest
+import controllers  # module to test
+
+
+
+import password_locker
 
 
 # class TestCredentials(unittest.TestCase):
@@ -109,11 +115,6 @@
 #     if __name__ == "__main__":
 #         unittest.main()
 #     
-import controllers  # module to test
-
-import unittest
-
-import password_locker
 
 class TestPasswordControllers(unittest.TestCase):    #TestCase class
     def setUp(self):
@@ -128,7 +129,7 @@ class TestPasswordControllers(unittest.TestCase):    #TestCase class
     def test_accessController(self):
         print('access')
     def test_generatePassword(self):
-        print('genpass')
+        print('generatepass')
         pass
     def test_showGeneratedPassword(self):
         print('showgenpass')

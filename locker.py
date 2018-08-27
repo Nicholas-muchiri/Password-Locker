@@ -71,7 +71,7 @@ class Credentials:
         name = str(input())
         f = open('password store.txt', 'r')
         for line in f.readlines():
-            tag, key = line.strip().split(":")
+            tag, key = line.split(":")
             if (name in tag):
                 key = key.strip()
                 # print(key)
@@ -112,9 +112,9 @@ class Controllers():
             controllers.access_controller()
         elif access_call == 'viewpass':
             credentials.show_generatedPass()
-            print("Do you want to copy the credentials?:YES or NO")
+            print("Do you want to copy the credentials?:y or n")
             called = input().lower()
-            if called == 'YES':
+            if called == 'y':
                credentials.copy_credentials()
 
             else:
