@@ -4,6 +4,20 @@ import secrets
 import getpass
 import string
 
+print('''
+    ____                                          __
+   / __ \____ ____________      ______  _________/ /
+  / /_/ / __ `/ ___/ ___/ | /| / / __ \/ ___/ __  /
+ / ____/ /_/ (__  |__  )| |/ |/ / /_/ / /  / /_/ /
+/_/    \__,_/____/____/ |__/|__/\____/_/   \__,_/
+
+    __               __
+   / /   ____  _____/ /_____  _____
+  / /   / __ \/ ___/ //_/ _ \/ ___/
+ / /___/ /_/ / /__/ ,< /  __/ /
+/_____/\____/\___/_/|_|\___/_/
+                                  ''')
+
 class Userdata:
     '''
     Class that generates new instances of userdata class
@@ -88,7 +102,7 @@ class Controllers():
         '''
         function that controls the flow of the application
         '''
-        print("login \n", "\n new user\n")
+        print("1. login ","2. new user\n")
         selector_call = str(input())
         if selector_call == "new user":
            userdata.create_user()
